@@ -1,0 +1,122 @@
+/*font-family: 'Lato', sans-serif;
+font-family: 'Bitter', serif;
+font-family: 'Sigmar One', cursive;*/
+body{
+    background-image: url("images/title.jpg");
+}
+
+h1 {
+    font-family: 'Sigmar One', cursive;
+    background-color: #FBB13C;
+    color:white;
+    font-size: 48px;
+    text-align: center;
+ 
+    
+}
+      
+.nav ul {
+    
+    font-family:'Lato', sans-serif;
+    
+     list-style-type: none;
+    margin: 0;
+     padding: 0;
+      overflow: hidden;
+     background-color: #D81159;
+        }
+        
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}   
+li a:hover {
+    background-color: #8F2D56;
+}
+        
+    h2 { 
+        font-family: 'Bitter', serif;
+        color:white;
+        background-color: #55E0B4;
+        text-align: left;
+        font-size:22px;
+        
+        
+    }
+    
+
+    
+p{
+   font-family: 'Lato', sans-serif; 
+}
+
+
+.main{
+    width:70%;
+    margin:auto;
+    /*
+    background-color: white;
+    opacity: 0.7;*/
+}
+
+/* images for all pages*/
+img{
+    width:400px;
+}
+div {   
+        border:5 px solid blue;
+        padding: 10px 5px 10px 10px;
+        margin :10px 5px 10px 10px; }
+
+*/div looks like boxes/*
+
+.main div
+
+{   display: inline-block; 
+    background-color: white;
+    opacity: 0.;
+    filter: alpha(opacity=50);
+    width:300px;  
+    text-align:center;
+
+}
+.main{
+      font-family: 'Lato', sans-serif; 
+      
+}
+
+.box1{
+    
+  
+}
+    
+    /*box
+    <div><style type="text/css"><!-- CSS start -->
+#box1 {
+width: 215px;
+height: 260px;
+background-color: blue
+}   <!-- CSS end -->*/
+
+.demo{
+    background-color: white;
+    width: 300px;
+    border: 25px ;
+    padding: 25px;
+    margin: 25px;
+}        
+.title{
+    align: center
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: flash;
+    animation-duration: 4s;
+}
+@webkit example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
